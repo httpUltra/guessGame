@@ -6,9 +6,11 @@ function checkGuess(){
   let guess = inputElement.value;
 
   if (guess == randomNumber) {
-
+    feedbackElement.innerHTML("GOOD JOB");
+    feedbackElement.style.color("green");
   } else if (guess < randomNumber) {
-
+    feedbackElement.innerHTML("TOO LOW!!!! TRY AGAIN!!");
+    feedbackElement.style.color("red");
   } else {
 
   }
