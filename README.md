@@ -1,1 +1,1 @@
-# guessGame
+# guessGame /w while loop  - JS
